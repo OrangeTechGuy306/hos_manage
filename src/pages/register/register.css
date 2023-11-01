@@ -1,0 +1,35 @@
+
+.regContainer{
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regFormContainer{
+    padding: 50px 30px;
+    border:.5px solid silver;
+    border-radius: 10px;
+}
+
+.regInputContainer{
+    margin: 10px 0px;
+}
+
+.regInput{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: .5px solid silver;
+    padding: 0px 10px;
+    background: transparent;
+}
+
+.regBtn{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
